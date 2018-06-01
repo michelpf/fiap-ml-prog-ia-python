@@ -35,6 +35,17 @@ def check_key():
 def hello():
     return "Hello World"
 
+@app.route("/file", methods=["POST"])
+def file():
+
+    if "file" in request.files:
+        f = request.files['file']
+        f.save(f.filename)
+    else:
+        return "Arquivo não encontrado"
+
+    return f.filename
+
 
 @app.route("/predict", methods=["GET"])
 def predict():
