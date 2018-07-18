@@ -1,5 +1,8 @@
 # FIAP MBA em Machine Learning e Inteligência Artificial
 
+![alt text](https://github.com/michelpf/fiap-ml-prog-ia-python/blob/master/ai-abstract-istock.jpg)
+
+
 ## Programando Inteligência Artificial com Python
 
 Nas aulas utilizaremos a distribuição Ananconda, com uso intensivo do Jupyter Notebook, que há vem instalado nesta distribuição.
